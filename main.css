@@ -59,14 +59,20 @@ ol li{
 	border-radius: 4px;
 	
 }
+ol li:hover{
+	background: rgba(0,0,0,0.8)
+}
 a{
 	text-decoration: none;
 }
 a:link{
 	color: rgba(0,125,233,0.90);
 }
+a:visited{
+	color: rgba(255,255,255,0.4);
+}
 a.self{
-	color: rgba(154,0,0,0.90);
+	color: rgba(255,255,255,0.4);
 }
 h1{
 	margin: 5px;
@@ -76,4 +82,3 @@ p{
 	text-indent: 20px;
 	word-break: break-all;
 }
-
