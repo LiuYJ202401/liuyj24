@@ -3,7 +3,7 @@ body{
 	padding: 10px;
 	color: rgba(255,255,255,1);
 	background-size: 110%;
-	background: repeating-linear-gradient(to left top,rgb(0,0,0),rgb(64,64,64),rgb(128,128,128),rgb(192,192,192),rgb(255,255,255));
+	background: repeating-linear-gradient(to left top,rgb(0,0,0),rgb(64,64,74),rgb(128,128,138),rgb(192,192,202),rgb(245,245,255));
 }
 header{
 	text-align: center;
@@ -35,7 +35,8 @@ nav{
 	background-color: rgba(0,0,0,0.8);
 	height: 500px;
 	width: 100px;
-	border-color: rgba(0,0,0,0.9)
+	border-color: rgba(0,0,0,0.9);
+	font-size: 20px;
 }
 section{
 	order: 1;
@@ -75,3 +76,4 @@ p{
 	text-indent: 20px;
 	word-break: break-all;
 }
+
