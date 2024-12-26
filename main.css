@@ -58,8 +58,14 @@ ol li{
 	border-radius: 4px;
 	
 }
+a{
+	text-decoration: none;
+}
 a:link{
-	color: rgba(12,246,174,1.00);
+	color: rgba(0,125,233,0.90);
+}
+a.self{
+	color: rgba(154,0,0,0.90);
 }
 h1{
 	margin: 5px;
