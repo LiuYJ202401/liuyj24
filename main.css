@@ -51,8 +51,10 @@ ol{
 }
 ol li{
 	background-color: rgba(0,0,0,0.5);
-	margin: 5px;
-	padding: 3px;
+	margin: 2px;
+	margin-left: -2px;
+	margin-right: -2px;
+	padding: 5px;
 	border-radius: 4px;
 	
 }
