@@ -67,7 +67,8 @@ ol li{
 	
 }
 ol li:hover{
-	background: rgba(0,0,0,0.8)
+	margin-left: -3px;
+	background-color: rgba(0,0,0,0.8)；
 }
 a{
 	text-decoration: none;
