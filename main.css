@@ -100,7 +100,7 @@ h2.basic{
 div.slider-container{
 	width: 100%;
 }
-#ri-slider,#k-slider{ /*滑动轨道样式*/
+#ri-slider,#k-slider,#n-slider-two,#p-slider-two{ /*滑动轨道样式*/
   -webkit-appearance: none; /* 清除默认样式 */
   width: 100%;
   height: 8px; /* 滑动条轨道的高度 */
@@ -108,11 +108,15 @@ div.slider-container{
   border-radius: 5px; /* 轨道的圆角 */
   outline: none; /* 移除焦点时的轮廓 */
 }
-#ri-input，#k-input {
-  width: 20px; /* 输入框的宽度 */
+#ri-input,#k-input,#n-input-two,#p-input-two {
+  width: 50px; /* 输入框的宽度 */
   padding: 5px; /* 内边距 */
   font-size: 14px; /* 字体大小 */
   border: 1px solid #ccc; /* 边框 */
   border-radius: 4px; /* 圆角 */
   margin-left: 10px; /* 与滑动条的间距 */
+}
+button{
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
